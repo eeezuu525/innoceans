@@ -148,6 +148,10 @@ button {
         padding: 0 24px;
     }
 
+   /*  .header .inner {
+        background-color: aqua;
+    }
+ */
     .header .inner .logo {
         width: 148px;
     }
@@ -196,4 +200,33 @@ button {
         gap: 24px;
 
     }
+
+    .main_visual img {
+        width: 702.406px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .main_visual img {
+        width: 615.469px;
+    }
+
+
+}
+
+@media screen and (max-width: 640px) {
+    .main_visual img {
+        width: 381.594px;
+    }
+
+
+}
+
+@media screen and (max-width: 400px) {
+    .main_visual img {
+        width: 271.359px;
+    }
+
 }
